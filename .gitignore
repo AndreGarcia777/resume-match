@@ -1,0 +1,34 @@
+# Dependências e artefatos gerados
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Configuração local e credenciais (o aplicativo não precisa de chaves)
+.env
+.env.*
+*.local
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Exemplos pessoais usados apenas em testes locais
+/Exemplos/
+
+# Hospedagem, editores e sistema operacional
+.vercel/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
